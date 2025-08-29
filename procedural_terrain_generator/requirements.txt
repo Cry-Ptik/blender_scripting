@@ -1,0 +1,49 @@
+# Procedural Terrain Generator - Dependencies
+# Compatible avec Python 3.8+
+
+# Core dependencies
+numpy>=1.21.0
+scipy>=1.7.0
+
+# Blender integration (installé avec Blender)
+# bpy - Fourni par Blender, pas d'installation pip nécessaire
+
+# Image processing pour textures et heightmaps
+Pillow>=8.3.0
+
+# Cache et sérialisation
+pickle-mixin>=1.0.2
+
+# Utilitaires système
+psutil>=5.8.0
+
+# Export formats
+# Pour export OBJ/GLTF avancé (optionnel)
+pygltflib>=1.15.0
+
+# Développement et tests (optionnel)
+pytest>=6.2.0
+pytest-cov>=2.12.0
+
+# Documentation (optionnel)
+sphinx>=4.0.0
+sphinx-rtd-theme>=0.5.0
+
+# CLI interface
+typer[all]>=0.9.0
+rich>=13.0.0
+
+# Optional dependencies for performance optimization
+# numba>=0.56.0  # Uncomment for faster math operations
+
+# Notes d'installation:
+# 1. Pour Blender: Utiliser le pip intégré de Blender
+#    Exemple: /path/to/blender/python/bin/python -m pip install -r requirements.txt
+#
+# 2. Pour développement standalone:
+#    pip install -r requirements.txt
+#
+# 3. Versions testées:
+#    - Python 3.8, 3.9, 3.10, 3.11
+#    - Blender 3.6+, 4.0+, 5.0+
+#    - Godot 4.0+, 4.4+
